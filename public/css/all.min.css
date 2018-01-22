@@ -1,0 +1,107 @@
+/* --------- mixins --------- */
+
+/* --------- centered --------- */
+
+/* --------- compass sprites --------- */
+
+/* --------- responsive mixins --------- */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'FuturaLightBT';
+  line-height: 1.6;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none outside none;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input::-moz-placeholder {
+  color: #fff;
+}
+
+/* Firefox 19 */
+
+input:-moz-placeholder {
+  color: #fff;
+}
+
+/* Firefox 18 */
+
+input:-ms-input-placeholder {
+  color: #fff;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.main {
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.empty {
+  height: 50px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -50px;
+  min-height: 50px;
+  background-color: #f4f3f3;
+  font-size: 14px;
+  color: #959595;
+}

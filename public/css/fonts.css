@@ -1,0 +1,35 @@
+	@font-face {
+			font-family: "FuturaLightBT";
+			src: url("../fonts/FuturaLightBT/FuturaLightBT.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "FuturaMdBTBold";
+			src: url("../fonts/FuturaMdBTBold/FuturaMdBTBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "FuturaMediumBT";
+			src: url("../fonts/FuturaMediumBT/FuturaMediumBT.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "LucidaGrandeBold";
+			src: url("../fonts/LucidaGrandeBold/LucidaGrandeBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "LucidaGrandeRegular";
+			src: url("../fonts/LucidaGrandeRegular/LucidaGrandeRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
