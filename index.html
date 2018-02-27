@@ -55,32 +55,41 @@
 						        <span class="icon-bar"></span>
 						        <span class="icon-bar"></span>
 						      </button>
-						      <a class="navbar-brand" href="#">Home</a>
+						      <a class="navbar-brand" href="#"><span class="menu-hov">Home</span></a>
 						    </div>
 
 						    <!-- Collect the nav links, forms, and other content for toggling -->
 						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						      <ul class="nav navbar-nav ">
 						      	<li class="dropdown">
-						          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">wedding</a>
+						          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="menu-hov">wedding</span></a>
 						          <ul class="dropdown-menu">
-						            <li><a href="#">Action</a></li>
-						            <li><a href="#">Another action</a></li>
-						            <li><a href="#">Something else here</a></li>
-						            <li role="separator" class="divider"></li>
-						            <li><a href="#">Separated link</a></li>
-						            <li role="separator" class="divider"></li>
-						            <li><a href="#">One more separated link</a></li>
+						            <li>
+						            	<a href="#" class="dropdown-menu_item dropdown-menu_item-one">Simple and Elegant</a>
+													<div class="dropdown__pic dropdown__pic-one"></div>
+						            </li>
+						            <li>
+						            	<a href="#" class="dropdown-menu_item dropdown-menu_item-two">Pebble paper</a>
+													<div class="dropdown__pic dropdown__pic-two"></div>
+						            </li>
+						            <li>
+						            	<a href="#" class="dropdown-menu_item dropdown-menu_item-three">Pocket invitations</a>
+													<div class="dropdown__pic dropdown__pic-three"></div>
+						            </li>
+						            <li>
+						            	<a href="#" class="dropdown-menu_item dropdown-menu_item-four">Elegant</a>
+													<div class="dropdown__pic dropdown__pic-four"></div>
+						            </li>
 						          </ul>
 						        </li>
-						        <li><a href="#">baby <span class="sr-only">(current)</span></a></li>
-						        <li><a href="#">Quinces/Mitzvah</a></li>
-						        <li><a href="#">Social</a></li>
-						        <li><a href="#">Other Products/Services</a></li>
-						        <li><a href="#">Online Consultation</a></li>
-						        <li><a href="#">Blog</a></li>
-						        <li><a href="#">White Papers</a></li>
-						        <li><a href="#">Contact Us</a></li>
+						        <li><a href="#"><span class="menu-hov">baby</span><span class="sr-only">(current)</span></a></li>
+						        <li><a href="#"><span class="menu-hov">Quinces/Mitzvah</span></a></li>
+						        <li><a href="#"><span class="menu-hov">Social</span></a></li>
+						        <li><a href="#"><span class="menu-hov">Other Products/Services</span></a></li>
+						        <li><a href="#"><span class="menu-hov">Online Consultation</span></a></li>
+						        <li><a href="#"><span class="menu-hov">Blog</span></a></li>
+						        <li><a href="#"><span class="menu-hov">White Papers</span></a></li>
+						        <li><a href="#"><span class="menu-hov">Contact Us</span></a></li>
 						      </ul>
 						    </div><!-- /.navbar-collapse -->
 						  </div><!-- /.container-fluid -->
@@ -136,21 +145,42 @@
 					<div class="row">
 						<div class="pattern__item">
 							<h3 class="pattern__item-title">simple and elegant</h3>
-							<a href="#" class="pattern__item-link">
-								<img  class="pattern__item-pic pattern__item-pic_one">
-							</a>
+							<figure class="pattern__item-hov">
+								<figcaption class="pattern__item-pic pattern__item-pic_one">
+									<div class="pattern__item-top">
+										<p class="pattern__item-text">
+											Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly...
+										</p>
+									</div>
+									<a href="" class="pattern__item-link">view more</a>
+								</figcaption>
+							</figure>
 						</div>
 						<div class="pattern__item">
 							<h3 class="pattern__item-title">Pocket Invitations</h3>
-							<a href="#" class="pattern__item-link">
-								<img  class="pattern__item-pic pattern__item-pic_two">
-							</a>
+							<figure class="pattern__item-hov">
+								<figcaption class="pattern__item-pic pattern__item-pic_two">
+									<div class="pattern__item-top">
+										<p class="pattern__item-text">
+											Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly...
+										</p>
+									</div>
+									<a href="" class="pattern__item-link">view more</a>
+								</figcaption>
+							</figure>
 						</div>
 						<div class="pattern__item">
 							<h3 class="pattern__item-title">Elegant</h3>
-							<a href="#" class="pattern__item-link">
-								<img  class="pattern__item-pic pattern__item-pic_three">
-							</a>
+							<figure class="pattern__item-hov">
+								<figcaption class="pattern__item-pic pattern__item-pic_three">
+									<div class="pattern__item-top">
+										<p class="pattern__item-text">
+											Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly...
+										</p>
+									</div>
+									<a href="" class="pattern__item-link">view more</a>
+								</figcaption>
+							</figure>
 						</div>
 					</div>
 				</div>
@@ -202,7 +232,12 @@
 						<div class="info__news info__item">
 							<p class="info__news-title">Newsletter</p>
 							<p class="info__news-text">Sign up for news & special offers!</p>
-							<input type="search" placeholder="Enter email he’re" class="info__news-search">
+							<div class="input-group search-wrap">
+					      <input type="text" class="form-control" placeholder="Enter email he’re">
+					      <span class="input-group-btn">
+					        <button class="btn btn-default info__news-button" type="button">&#10095</button>
+					      </span>
+					    </div><!-- /input-group -->
 						</div>
 					</div>
 				</div>
